@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainDrawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnLine"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:background="@drawable/line1"/>
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:id="@+id/btnMenu"
+            android:background="@drawable/rank1"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:id="@+id/btnYouway"
+            android:background="@drawable/map1"
+            />
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:id="@+id/btnMyPage"
+            android:background="@drawable/mypage1"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
