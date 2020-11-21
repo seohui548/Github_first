@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.managestore">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainPostActivity" />
+        <activity android:name=".StartLineActivity" />
+        <activity android:name=".NewStoreAct" />
+        <activity android:name=".EditTaskDesk" />
+        <activity
+            android:name=".ResultStore"
+            android:label="예약 현황 확인" />
+        <activity
+            android:name=".StoreStart"
+            android:label="카페 등록" />
+        <activity
+            android:name=".MainList"
+            android:label="카페 등록" />
+        <activity
+            android:name=".Inputlist"
+            android:label="방 개설" />
+        <activity
+            android:name=".Updatelist"
+            android:label="업데이트" />
+
+        <activity android:name=".MainActivity">
+
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+    </application>
+
+</manifest>
